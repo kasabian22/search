@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <link rel="stylesheet" href="styles/advanced search.css">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="header">
+            <img src="icons/google.png" class="google-img">
+            <div class="links">
+                <a href="image-search.html" class="link-search">Image Search</a>
+                <a href="index.html" class="link-search">Google Search</a>
+            </div>
+            
+        </div>
+        
+        <h1 class="h-advanced">Advanced search</h1>
+        <hr>
+        <div class="search-container">
+            <h2 class="find">Find pages with...</h2>
+            <form action="https://www.google.com/search">
+                <div class="label-div"><label>all these words:</label></div>
+                <input type="text" name="as_q">
+
+                <div class="label-div"><label>this exact word or phrase:</label></div>
+                <input type="text" name="as_epq">
+
+                <div class="label-div"><label>any of these words:</label></div>
+                <input type="text" name="as_oq">
+
+                <div class="label-div"><label>none of these words:</label> </div> 
+                <input type="text" name="as_eq">
+
+                <button type="submit" class="btn-search">Advanced Search</button>
+            </form>
+        </div>
+        
+    </body>
+</html>
